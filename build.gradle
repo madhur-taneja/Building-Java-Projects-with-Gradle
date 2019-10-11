@@ -27,7 +27,8 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    testCompile("junit:junit")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
     compile "joda-time:joda-time:2.2"
     testCompile "junit:junit:4.12"
+
 }
